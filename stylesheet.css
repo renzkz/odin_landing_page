@@ -6,17 +6,23 @@
 
 }
 
+:root{
+    --maxWidth: 1200px;
+}
+
 header{
     background-color: #1f2937;
     
 }
 
+
+
 .navBar{
-    max-width: 800px;
+    max-width: var(--maxWidth);
     display: flex;
     margin: 0 auto;
     justify-content: space-between;  
-    padding-top: 30px  
+    padding: 30px 30px; 
 }
 
 .headerNav{
@@ -33,9 +39,37 @@ header{
 }
 
 .heroBanner{
-    max-width: 800px;
+    max-width: var(--maxWidth);
     display: flex;
     margin: 0 auto;
     justify-content: space-between;  
-    padding-top: 30px  
+    padding: 50px 30px 90px 30px;  
+
+}
+
+.heroText h1{
+    color: #F9FAF8;
+    font-weight:800;    
+    font-size: 48px;
+}
+
+.heroText p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.heroText button{
+    background-color:#3882f6;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#e5e7eb;
+}
+
+.heroImage{
+    border-radius: 10px;
+    max-width: 40%;
+    margin-left: 30px;
 }
