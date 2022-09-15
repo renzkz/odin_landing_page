@@ -8,9 +8,34 @@
 
 header{
     background-color: #1f2937;
+    
 }
 
+.navBar{
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;  
+    padding-top: 30px  
+}
+
+.headerNav{
+    margin-top: 5px;
+    color:#F9FAF8    
+}
+
+.headerNav a{
+    padding-right: 20px;
+}
 .headerLogo{
     font-size:24px;
     color:#F9FAF8
+}
+
+.heroBanner{
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;  
+    padding-top: 30px  
 }
