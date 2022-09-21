@@ -100,3 +100,50 @@ figcaption{
     padding-left:;
 
 }
+
+.sectionQuote{
+    background-color: #e5e7eb;
+}
+
+.quote{
+    max-width: 600px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+.cite{
+    text-align: right;
+    padding-right: 40px;
+    font-weight: 600;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.background{
+    background-color: #3882f6;
+    width: 600px;
+    height: 80px;
+    margin:50px auto;
+    padding: 0 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#F9FAF8
+}
+#subtext{
+    font-size: .6rem;
+    color: #e5e7eb;
+}
+footer button{
+    background: none;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
